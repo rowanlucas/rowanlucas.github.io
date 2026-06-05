@@ -1,6 +1,4 @@
-export const siteConfig = {
-  name: "Rowan Lucas",
-  title: "researcher, developer & creative technologist",
+export const siteConfig = {  name: "Rowan Lucas Smith",  title: "researcher, developer, creative technologist, artist, human, earthworm.",
   description: "portfolio site of Rowan Lucas Smith",
   accentColor: "#e36a00",
   social: {
@@ -8,23 +6,44 @@ export const siteConfig = {
     github: "https://github.com/rowanlucas",
   },
   about:
-    "I live in the intersections of technology, art and media, and collective liberation. There's much more of me elsewhere, on and off the web, but this site exists for when a quick view is useful.",
-  skills: ["web dev", "tech ethics", "tech arts"],
+    "through transdisciplinary practise in arts, technologies and humanities, i nurture strange convergences and divergences in pursuit of equitable futures",
+  skills: [],
   projects: [
     {
-      name: "Research",
+      name: "research",
       description:
         "My current thesis work is on content capture / collection / curation for self-sovereign collectivist future-building.",
       link: "/recapture",
-      skills: ["Critical Data Studies", "indieweb", "fediverse", "Xenofeminism"],
+      skills: []
     },
     {
-      name: "TechArts",
+      name: "development",
       description:
-        "As I blend my disparate practises in the technical and the creative I'm building integrated works of digital arts across any medium and method that compels me.",
-      link: "/techarts",
-      skills: ["Blender", "TouchDesigner", "Unity", "micro-computing"],
+        "latest work relates to personal knowledge management (PKM)",
+      link: "/dev",
+      skills: []
     },
+    {
+      name: "practises",
+      description:
+        "ongoing practises and projects perpetually in-progress",
+      link: "/practises",
+      skills: []
+    },
+    {
+      name: "techarts",
+      description:
+        "as I blend my disparate practises in the technical and the creative I'm building integrated works of digital arts across any medium and method that compels me.",
+      link: "/techarts",
+      skills: []
+    },
+    {
+      name: 'other creative work",
+      description: 
+        "i create in various mediums; my analogue expression is vastly different from tech explorations",
+      link: "/arts",
+      skills: []
+    }
   ],
   experience: [
     {
